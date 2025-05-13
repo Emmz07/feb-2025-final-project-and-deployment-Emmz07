@@ -3,7 +3,7 @@
 
 iBlog is a modern, responsive blogging platform designed to share thoughtful insights on technology, design, productivity, and lifestyle. This project includes a fully functional website with dynamic content, interactive features, and a clean, minimalist design.
 
-**Live Preview**: 
+# Live Preview: https://emmz07.github.io/web_dev_finalls/
 
 ## Project Structure
 
