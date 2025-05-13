@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iBlog - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">i<span>Blog</span></a>
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-toggle" id="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Welcome to iBlog</h1>
+          <p>Discover thoughtful articles on technology, design, and innovation</p>
+          <a href="blog.html" class="btn btn-primary">Explore Articles</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Posts Section -->
+    <section class="featured-posts">
+      <div class="container">
+        <h2 class="section-title">Featured Articles</h2>
+        <div class="slider-container">
+          <div class="slider" id="featured-slider">
+            <div class="slide">
+              <div class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tech Innovation">
+                </div>
+                <div class="featured-card-content">
+                  <span class="category">Technology</span>
+                  <h3>The Future of AI in Everyday Applications</h3>
+                  <p>Exploring how artificial intelligence is becoming an essential part of our daily lives.</p>
+                  <a href="post.html?id=1" class="read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Design">
+                </div>
+                <div class="featured-card-content">
+                  <span class="category">Design</span>
+                  <h3>Principles of Minimalist Web Design</h3>
+                  <p>Mastering the art of simplicity in modern web interfaces.</p>
+                  <a href="post.html?id=2" class="read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="featured-card">
+                <div class="featured-card-image">
+                  <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Productivity">
+                </div>
+                <div class="featured-card-content">
+                  <span class="category">Productivity</span>
+                  <h3>Remote Work Strategies That Actually Work</h3>
+                  <p>Proven methods to stay productive and balanced while working from home.</p>
+                  <a href="post.html?id=3" class="read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="slider-btn prev-btn" id="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="slider-btn next-btn" id="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="recent-posts">
+      <div class="container">
+        <h2 class="section-title">Recent Articles</h2>
+        <div class="post-grid">
+          <div class="post-card">
+            <div class="post-card-image">
+              <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tech Trends">
+            </div>
+            <div class="post-card-content">
+              <span class="category">Technology</span>
+              <h3>2025 Tech Trends to Watch</h3>
+              <p class="post-meta"> By Emma Wilson • May 15, 2025</p>
+              <p class="post-excerpt">The most promising technological innovations that will shape our future.</p>
+              <a href="post.html?id=4" class="read-more">Continue Reading</a>
+            </div>
+          </div>
+          <div class="post-card">
+            <div class="post-card-image">
+              <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="UX Design">
+            </div>
+            <div class="post-card-content">
+              <span class="category">Design</span>
+              <h3>UX Practices That Drive Conversion</h3>
+              <p class="post-meta">By Michael Chen • May 12, 2025</p>
+              <p class="post-excerpt">How effective user experience design can significantly increase conversion rates.</p>
+              <a href="post.html?id=5" class="read-more">Continue Reading</a>
+            </div>
+          </div>
+          <div class="post-card">
+            <div class="post-card-image">
+              <img src="https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Personal Growth">
+            </div>
+            <div class="post-card-content">
+              <span class="category">Lifestyle</span>
+              <h3>Building a Morning Routine for Success</h3>
+              <p class="post-meta">By Sarah Johnson • May 10, 2025</p>
+              <p class="post-excerpt">How the first hours of your day can set the tone for productivity and wellbeing.</p>
+              <a href="post.html?id=6" class="read-more">Continue Reading</a>
+            </div>
+          </div>
+        </div>
+        <div class="centered-btn">
+          <a href="blog.html" class="btn btn-secondary">View All Articles</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Subscribe to Our Newsletter</h2>
+          <p>Get the latest articles and insights delivered straight to your inbox.</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="index.html">i<span>Blog</span></a>
+          <p>Thoughtful insights on technology, design, and modern life.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-categories">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="blog.html?category=technology">Technology</a></li>
+            <li><a href="blog.html?category=design">Design</a></li>
+            <li><a href="blog.html?category=productivity">Productivity</a></li>
+            <li><a href="blog.html?category=lifestyle">Lifestyle</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 iBlog. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+</html>

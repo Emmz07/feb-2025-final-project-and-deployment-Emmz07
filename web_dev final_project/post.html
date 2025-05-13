@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post - iBlog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/post.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">i<span>Blog</span></a>
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-toggle" id="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="blog-post" id="blog-post">
+      <!-- Blog post content will be loaded dynamically via JavaScript -->
+    </article>
+
+    <!-- Author Bio -->
+    <section class="author-section">
+      <div class="container">
+        <div class="author-bio" id="author-bio">
+          <!-- Author bio will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments-section">
+      <div class="container">
+        <h2>Comments</h2>
+        <div class="comments-container" id="comments-container">
+          <!-- Comments will be loaded dynamically -->
+        </div>
+        
+        <!-- Comment Form -->
+        <div class="comment-form-container">
+          <h3>Leave a Comment</h3>
+          <form id="comment-form" class="comment-form">
+            <div class="form-group">
+              <label for="commenter-name">Name</label>
+              <input type="text" id="commenter-name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="commenter-email">Email</label>
+              <input type="email" id="commenter-email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="comment-text">Your Comment</label>
+              <textarea id="comment-text" name="comment" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Comment</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Posts -->
+    <section class="related-posts">
+      <div class="container">
+        <h2>You May Also Like</h2>
+        <div class="related-posts-grid" id="related-posts">
+          <!-- Related posts will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Subscribe to Our Newsletter</h2>
+          <p>Get the latest articles and insights delivered straight to your inbox.</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="index.html">i<span>Blog</span></a>
+          <p>Thoughtful insights on technology, design, and modern life.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-categories">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="blog.html?category=technology">Technology</a></li>
+            <li><a href="blog.html?category=design">Design</a></li>
+            <li><a href="blog.html?category=productivity">Productivity</a></li>
+            <li><a href="blog.html?category=lifestyle">Lifestyle</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 iBlog. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script src="js/post.js"></script>
+  <script src="js/comments.js"></script>
+</body>
+</html>
